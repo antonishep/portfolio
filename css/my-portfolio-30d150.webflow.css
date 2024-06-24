@@ -134,7 +134,7 @@ a {
 }
 
 .nav-button._7:hover {
-  background-color: #815fa7;
+  background-color: #000;
 }
 
 .caps-btn-text {
@@ -194,6 +194,7 @@ a {
 }
 
 .div-block {
+  opacity: .25;
   background-color: #03ffa3;
   width: 350px;
   height: 20px;
@@ -210,22 +211,24 @@ a {
 }
 
 ._3 {
+  opacity: .25;
   background-color: #146ef4;
   width: 175px;
   height: 20px;
 }
 
 ._4 {
-  background-color: #0c343e;
+  opacity: .25;
+  background-color: #bd00ff;
   width: 200px;
   height: 20px;
 }
 
 ._5 {
-  background-color: #bd00ff;
+  background-color: #072640;
   width: 40px;
   height: 20px;
-  margin-left: 10px;
+  margin-left: 0;
 }
 
 .heading {
@@ -284,6 +287,7 @@ a {
 }
 
 .div-block-2 {
+  opacity: .25;
   background-color: #ff8a00;
   width: 135px;
   height: 20px;
@@ -1094,8 +1098,7 @@ a {
 
 .text-block-2._7 {
   color: #b9eaff;
-  margin-top: 8%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   font-size: 16px;
   font-weight: 700;
 }
@@ -1105,7 +1108,8 @@ a {
 }
 
 .section-2 {
-  height: 600px;
+  margin-top: 8%;
+  margin-bottom: 8%;
   padding-left: 12%;
   padding-right: 12%;
   position: relative;
@@ -2201,13 +2205,18 @@ a {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+  margin-bottom: 8%;
   padding: 2%;
   transition: all .3s;
   display: flex;
 }
 
 .div-iam:hover {
-  box-shadow: 0 10px #8a30f3;
+  box-shadow: 0 10px #000;
+}
+
+.div-iam.new {
+  margin-bottom: 2%;
 }
 
 .bold-text-2 {
@@ -2343,6 +2352,21 @@ a {
   bottom: auto;
   left: 0%;
   right: auto;
+}
+
+.lets-connect {
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -18px;
+  margin-bottom: -26px;
+}
+
+.lottie-animation-7 {
+  width: 140px;
+  margin-top: 16px;
+  margin-left: -34px;
+  margin-right: -13px;
+  padding-left: 0;
 }
 
 @media screen and (min-width: 1920px) {
